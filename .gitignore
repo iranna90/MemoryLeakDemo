@@ -1,0 +1,43 @@
+**/target/
+*.versionsBackup
+
+# Java build directory
+**/*.jar
+**/*.hprof
+*.hprof
+
+### IntelliJ IDEA ###
+# User-specific stuff
+.idea
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+**/*.iml
+ *.ipr
+
+# CMake
+cmake-build-*/
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+### NetBeans ###
+**/nbproject/private/
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+### OS related
+**/.DS_Store
+**/*.swp
+
+
+**/*.log
+
