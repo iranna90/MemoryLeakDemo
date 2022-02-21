@@ -46,7 +46,7 @@ Example Body:
 
 
 ## Running the Application.
-###Below are the steps to run the application.
+### Below are the steps to run the application.
 1. As the application makes JNI call, it needs shared library in the class path, so we need to build `.so` for the code written in C++.
 All the C++ code present in the folder "cpp", I have already generated header file for the JAVA native method code    and also implemented corresponding logic in C++.
 Below are the steps to generate `.so` library file from C++ code using `g++` compiler.
